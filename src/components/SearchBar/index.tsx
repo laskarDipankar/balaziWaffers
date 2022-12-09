@@ -39,7 +39,7 @@ const SearchBar = () => {
         ></IconButton>
         <Divider
           color="white"
-          sx={{ height: 60, m: 1 }}
+          sx={{ height: 56, m: 1 }}
           orientation="vertical"
         />
         <IconButton sx={{ p: "10px", color: "white" }} aria-label="search">

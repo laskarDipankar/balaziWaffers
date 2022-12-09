@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { Typography } from "@mui/material";
 
 export const Heading = styled(Typography)({
-  fontSize: "4.3rem",
+  fontSize: "4.0rem",
   fontFamily: "Sans-serif",
   //   fontStyle: "Sans-serif",
 
