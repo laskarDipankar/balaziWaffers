@@ -1,5 +1,4 @@
 import { Card, CardMedia, Container, Grid } from "@mui/material";
-import React from "react";
 import img from "../../assets/img/balaziwaffer.svg";
 import Flavours from "../../components/Flavours/index";
 
@@ -13,16 +12,27 @@ const Waffers = () => {
               sx={{
                 boxShadow: "none",
                 backgroundColor: "transparent",
-                rotate: "-3deg",
-                mb: "4rem",
+                rotate: "-1.2deg",
+                display: "flex",
+                width: "300",
+                alignSelf: "flex-start",
+                position: "relative",
+                bottom: "3rem",
+
+                ml: "2rem",
               }}
             >
               <CardMedia
                 component="img"
                 width="300"
-                height="700"
+                // height="600"
                 image={img}
                 alt="Waffers"
+                sx={
+                  {
+                    // mb: "4rem",
+                  }
+                }
               />
             </Card>
           </Grid>

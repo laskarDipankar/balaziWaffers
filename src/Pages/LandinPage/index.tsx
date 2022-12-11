@@ -13,6 +13,7 @@ import chilli from "../../assets/img/redchilli.svg";
 import corn from "../../assets/img/corn.svg";
 import fire from "../../assets/img/fire.svg";
 import Waffers from "../../components/MainWaffer/index";
+import ThreeWaffers from "../../components/ThreeWaffers/index";
 import { useRecoilValue } from "recoil";
 import { flavour } from "../../recoil/atom";
 
@@ -41,8 +42,9 @@ const Landing = () => {
           maxWidth="xl"
           disableGutters={true}
           sx={{
-            height: "100vh",
+            // height: "100vh",
             padding: "0",
+            // border: `1px solid red`,
           }}
         >
           <Grid
@@ -58,7 +60,7 @@ const Landing = () => {
               <Container
                 disableGutters={true}
                 sx={{
-                  height: "100vh",
+                  height: "100%",
                   // backgroundColor: "yellow",
                   padding: "0",
                 }}
@@ -140,22 +142,33 @@ const Landing = () => {
                   <Grid item xs={12}>
                     <AddItemButton />
                   </Grid>
-
                   <Grid item xs={12}>
                     <QuantityButton />
                   </Grid>
                 </Grid>
               </Container>
             </Grid>
-
             <Grid
               item
               xl={7}
               sx={{
-                height: "100vh",
+                height: "100%",
               }}
             >
               <Waffers />
+            </Grid>
+          </Grid>
+          <Grid container>
+            <Grid
+              item
+              xl={12}
+              sx={{
+                height: "10vh",
+                // height: "100%",
+                backgroundColor: "yellow",
+              }}
+            >
+              <ThreeWaffers />
             </Grid>
           </Grid>
         </Container>
