@@ -19,8 +19,8 @@ const index = () => {
           backgroundColor: "#006666",
           borderTopLeftRadius: "50px",
           borderTopRightRadius: "50px",
+          alignItems: "center",
 
-          border: "1px solid red",
           //   backgroundColor: "maroon",
         }}
       >

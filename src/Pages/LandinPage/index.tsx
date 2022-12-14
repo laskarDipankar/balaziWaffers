@@ -42,9 +42,7 @@ const Landing = () => {
           maxWidth="xl"
           disableGutters={true}
           sx={{
-            // height: "100vh",
             padding: "0",
-            // border: `1px solid red`,
           }}
         >
           <Grid
@@ -164,8 +162,6 @@ const Landing = () => {
               xl={12}
               sx={{
                 height: "10vh",
-                // height: "100%",
-                backgroundColor: "yellow",
               }}
             >
               <ThreeWaffers />

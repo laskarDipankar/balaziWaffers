@@ -15,3 +15,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.waffers-img:hover{
+  scale: 1.2;
+  rotate: -9deg;
+
+
+}
