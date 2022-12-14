@@ -18,8 +18,11 @@ const Waffers = () => {
                 alignSelf: "flex-start",
                 position: "relative",
                 bottom: "3rem",
-
                 ml: "2rem",
+                "&:hover": {
+                  scale: 1.1,
+                  rotate: "2deg",
+                },
               }}
             >
               <CardMedia
