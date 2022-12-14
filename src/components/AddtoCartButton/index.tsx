@@ -15,7 +15,8 @@ const AddItemButton = () => {
           p: "2px 4px",
           display: "flex",
           alignItems: "center",
-          width: 200,
+          width: 250,
+          height: 84,
           backgroundColor: "black",
 
           alignSelf: "flex-start",
@@ -29,8 +30,10 @@ const AddItemButton = () => {
           }}
         >
           <ShoppingCartIcon
-            fontSize="large"
+            // fontSize="large"
+
             sx={{
+              fontSize: "2.8rem",
               color: "white",
               m: "2",
             }}
@@ -38,7 +41,7 @@ const AddItemButton = () => {
         </IconButton>
         <IconButton
           type="submit"
-          sx={{ p: "10px", fontSize: "1.2rem", color: "white", flex: 1 }}
+          sx={{ p: "10px", fontSize: "1.6rem", color: "white", flex: 1 }}
         >
           Add to Cart
         </IconButton>

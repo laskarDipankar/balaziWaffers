@@ -27,8 +27,8 @@ const QuantityButton = () => {
           }}
         >
           <AddIcon
-            fontSize="large"
             sx={{
+              fontSize: "2.8rem",
               borderRadius: "50%",
             }}
           />
@@ -39,7 +39,8 @@ const QuantityButton = () => {
             backgroundColor: "white",
             border: "1px solid orange",
             m: "4px",
-            width: "50px",
+            width: 60,
+            height: 60,
 
             p: "4",
           }}
@@ -59,7 +60,11 @@ const QuantityButton = () => {
               : setQuantity((item) => item - 1);
           }}
         >
-          <RemoveIcon fontSize="large" />
+          <RemoveIcon
+            sx={{
+              fontSize: "2.8rem",
+            }}
+          />
         </IconButton>
       </Container>
     </div>
